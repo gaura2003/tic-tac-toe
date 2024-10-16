@@ -11,21 +11,18 @@
 
 <body>
   <h1 class="text-6xl text-center mt-2 font-bold">Tic Tac Toe</h1>
-
-  <!-- Game Mode and Difficulty Selection -->
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center m-5">
       <label for="gameMode" class="text-xl font-bold">Select Game Mode:</label>
       <select id="gameMode" class="p-2">
-        <option value="u-vs-u">User vs User</option>
+        <option value="u-vs-u">Player vs Player</option>
         <option value="computer-vs-u">Computer vs User</option>
       </select>
     </div>
 
-  <div class="flex justify-center items-center gap-10 m-10">
+  <div class="flex justify-center items-center gap-10 ">
     <div class="box1 w-[450px] flex flex-col justify-center items-center">
       <div class="line"></div>
       <div class="containers grid grid-cols-3">
-        <!-- Grid for the Tic Tac Toe board -->
         <div class="boxes flex justify-center items-center cursor-pointer bg-blue-500 hover:bg-blue-300 border-2 border-black border-l-0 border-t-0 w-[150px] h-[150px]">
           <span class="boxtext text-8xl text-white"></span>
         </div>

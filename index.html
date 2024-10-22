@@ -8,14 +8,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <h1 class="text-6xl text-center mt-2 font-bold">Tic Tac Toe</h1>
-  <div class="flex justify-center items-center m-5">
-    <label for="gameMode" class="text-xl font-bold">Select Game Mode:</label>
-    <select id="gameMode" class="p-2">
-      <option value="u-vs-u">Player vs Player</option>
-      <option value="computer-vs-u">Computer vs User</option>
+<body class="bg-orange-300">
+  <div class=" text-center mb-6">
+    <h1 class="text-5xl font-bold m-2">Tic-Tac-Toe</h1>
+    <div class="flex justify-center items-center gap-4">
+      <label for="gameMode" class="text-lg sm:text-xl font-bold">Select Game Mode:</label>
+    <select id="gameMode" class="text-gray-900 p-2 rounded mt-2">
+      <option value="pvp">Player vs Player</option>
+      <option value="easy">Player vs Computer (Easy)</option>
+      <option value="medium">Player vs Computer (Medium)</option>
+      <option value="impossible">Player vs Computer (Impossible)</option>
     </select>
+    </div>
   </div>
  
   <div class="main flex justify-center items-center gap-10">
